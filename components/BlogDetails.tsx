@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BlogDetails = ({slug}: {slug: number}) => {
+const BlogDetails = ({slug}: {slug: string}) => {
   return (
     <div>{slug}</div>
   )
